@@ -109,7 +109,7 @@ function drawBricks() {
 }
 function drawScore() {
   ctx.font = "16px Arial";
-  ctx.fillStyle = "#0095DD";
+  ctx.fillStyle = "#2EA44F";
   ctx.fillText("Score: "+score, 8, 20);
 }
 function drawLives() {
