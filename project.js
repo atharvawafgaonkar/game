@@ -86,7 +86,7 @@ function drawBall() {
 function drawPaddle() {
   ctx.beginPath();
   ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-  ctx.fillStyle = "#0e7ceb";
+  ctx.fillStyle = "red";
   ctx.fill();
   ctx.closePath();
 }
@@ -100,7 +100,7 @@ function drawBricks() {
         bricks[c][r].y = brickY;
         ctx.beginPath();
         ctx.rect(brickX, brickY, brickWidth, brickHeight);
-        ctx.fillStyle = "#bf15ae";
+        ctx.fillStyle = "yellow";
         ctx.fill();
         ctx.closePath();
       }
